@@ -18,7 +18,7 @@ A. UI/UX and design
 B. Machine Learning
 * 
 
-and of course... *[Kotlin](https://github.com/JetBrains/kotlin)
+and of course... [Kotlin](https://github.com/JetBrains/kotlin)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
