@@ -2,9 +2,9 @@
 
 ## What's inside of this repos??
 
-Welcome to EduSign project repository for the mobile development part! 
+Welcome to PeMuda project repository for the mobile development part! 
 
-This repository contains the EduSign android project files as part of Bangkit 2023's Product-based Capstone Project built in Native Android with Kotlin using Android Studio IDE.
+This repository contains the PeMuda android project files as part of Bangkit 2024's Product-based Capstone Project built in Native Android with Kotlin using Android Studio IDE.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -15,11 +15,7 @@ A. UI/UX and design
 * [Materials Design Components](https://github.com/material-components/material-components-android)
 * [OkHttp3](https://github.com/square/okhttp)
 
-B. Video Processing
-* [MediaPipe](https://github.com/google/mediapipe)
-* [Retrofit](https://github.com/square/retrofit)
-
-C. Machine Learning
+B. Machine Learning
 * [TensorFlow Lite - Task Library](https://www.tensorflow.org/lite/inference_with_metadata/task_library/overview)
 
 and of course... *[Kotlin](https://github.com/JetBrains/kotlin)
@@ -29,13 +25,13 @@ and of course... *[Kotlin](https://github.com/JetBrains/kotlin)
 
 ## How can you clone and install the application from this repository??:
 1. You can clone this repository with using one of two methods:
-	- HTTPS: Use Git or SVN checkout by making use of this URL: https://github.com/TheSalmonSushi/EduSign.git
+	- HTTPS: Use Git or SVN checkout by making use of this URL: https://github.com/2205551032-Surya/PeMuda.git
 	   ```sh
-	   git clone https://github.com/TheSalmonSushi/EduSign.git
+	   git clone https://github.com/2205551032-Surya/PeMuda.git
 	   ```
 	- GitHub CLI: Write this on the command line: 
 	   ```sh
-	   gh repo clone TheSalmonSushi/EduSign
+	   gh repo clone 2205551032-Surya/PeMuda
 	   ```
 
 2. Or by using Android Studio or any other Android software development IDE(s)
@@ -64,8 +60,8 @@ To make use of this repository, the software and hardware should meet these prer
 
 ## Features of this Application
 
- you can try somw of this features in the EduSign application:
+you can try some of this features in the PeMuda application:
 
-* Sign Language Translate with Video Camera: You can use this feature to translate your sign language movement to text using Video Processing. 
-* Challenges based on categoty: With this feature you can try to do the sign language challenge based on the available category. Use this to improve your movement accuracy and to test your knowledge on sign language.
-* A Dictionary of sign language word: You can use the Dictionary feature to search the sign language for the word you are looking for. 
+* 
+* 
+* 
