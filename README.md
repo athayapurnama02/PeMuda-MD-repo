@@ -16,7 +16,7 @@ A. UI/UX and design
 * [OkHttp3](https://github.com/square/okhttp)
 
 B. Machine Learning
-* [TensorFlow Lite - Task Library](https://www.tensorflow.org/lite/inference_with_metadata/task_library/overview)
+* 
 
 and of course... *[Kotlin](https://github.com/JetBrains/kotlin)
 
