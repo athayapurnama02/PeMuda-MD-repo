@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/user_nav"
+    app:startDestination="@id/userFragment">
+
+    <fragment
+        android:id="@+id/userFragment"
+        android:name="com.example.pemudafix.home.fragments.userFragment.UserFragment"
+        android:label="fragment_user"
+        tools:layout="@layout/fragment_user" >
+        <action
+            android:id="@+id/action_userFragment_to_userEditFragment"
+            app:destination="@id/userEditFragment" />
+        <action
+            android:id="@+id/action_userFragment_to_userResumeEditFragment"
+            app:destination="@id/userResumeEditFragment" />
+        <action
+            android:id="@+id/action_userFragment_to_userEducationEditFragment"
+            app:destination="@id/userEducationEditFragment" />
+        <action
+            android:id="@+id/action_userFragment_to_userExperiencesEditFragment"
+            app:destination="@id/userExperiencesEditFragment" />
+        <action
+            android:id="@+id/action_userFragment_to_userSkillsEditFragment"
+            app:destination="@id/userSkillsEditFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userEditFragment"
+        android:name="com.example.pemudafix.home.fragments.userFragment.UserEditFragment"
+        android:label="fragment_user_edit"
+        tools:layout="@layout/fragment_user_edit" >
+        <argument
+            android:name="student"
+            app:argType="com.example.pemudafix.model.Student" />
+    </fragment>
+    <fragment
+        android:id="@+id/userResumeEditFragment"
+        android:name="com.example.pemudafix.home.fragments.userFragment.UserResumeEditFragment"
+        android:label="fragment_user_resume_edit"
+        tools:layout="@layout/fragment_user_resume_edit" />
+    <fragment
+        android:id="@+id/userEducationEditFragment"
+        android:name="com.example.pemudafix.home.fragments.userFragment.UserEducationEditFragment"
+        android:label="fragment_user_education_edit"
+        tools:layout="@layout/fragment_user_education_edit" />
+    <fragment
+        android:id="@+id/userExperiencesEditFragment"
+        android:name="com.example.pemudafix.home.fragments.userFragment.UserExperiencesEditFragment"
+        android:label="fragment_user_experiences_edit"
+        tools:layout="@layout/fragment_user_experiences_edit" />
+    <fragment
+        android:id="@+id/userSkillsEditFragment"
+        android:name="com.example.pemudafix.home.fragments.userFragment.UserSkillsEditFragment"
+        android:label="fragment_user_skills_edit"
+        tools:layout="@layout/fragment_user_skills_edit" />
+</navigation>
